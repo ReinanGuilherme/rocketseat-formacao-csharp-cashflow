@@ -1,0 +1,59 @@
+# Arquivos binários e de objeto
+bin/
+obj/
+
+# Arquivos de build
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ferramentas de IDE
+.vs/
+.vscode/
+*.swp
+*.bak
+*~.nib
+
+# Pacotes
+*.nupkg
+# O diretório packages pode ser removido no caso do uso de PackageReference
+packages/
+
+# Ferramentas de build
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Arquivos de log de build
+*.log
+*.log.*
+*.log.*
+
+# Arquivos de saída
+out/
+
+# Arquivos de projeto
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Ficheiros gerados durante a compilação
+Generated_Code/
+
+# Arquivos de cobertura de teste
+*.opencover.xml
+
+# Arquivos de banco de dados de local ou teste
+*.mdf
+*.ldf
+*.sqlite
+
+# Ferramentas de banco de dados
+*.dbmdl
+
+# Ferramentas específicas do NPM
+node_modules/
+
+# Publicar saídas
+publish/
